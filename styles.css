@@ -8,12 +8,12 @@
         background-color: green;
         color: white;
         font-size: 20px;
-        margin: 5px;
     }
     #grid{
         display: grid;
         grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
         grid-template-rows: 124px 124px 124px 124px 124px;
+		grid-gap:10px 10px;
     }
     .one1{
         grid-column: 1/5;
