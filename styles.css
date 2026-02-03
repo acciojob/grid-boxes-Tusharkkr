@@ -16,7 +16,7 @@
 		grid-gap:10px 10px;
     }
     .one1{
-        grid-column: 1/auto;
+        grid-column: span 4 / auto;
     }
     .one2{
         grid-row: 2/6
