@@ -13,7 +13,7 @@
     #grid{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-rows: 124px 124px 124px 124px 124px;
     }
     .one1{
         grid-column: 1/5;
