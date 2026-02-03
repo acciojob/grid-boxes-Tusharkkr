@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    div{
+        padding: 20px 40px;
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+    .one1{
+        grid-column: 1/5;
+    }
+    .one2{
+        grid-row: 2/6
+    }
+    .one4{
+        grid-column: 3/5;
+    }
+    .one5{
+        grid-column: 2/4;
+    }
+    .one10{
+        grid-column: 2/5;
+    }
